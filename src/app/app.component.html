@@ -1,4 +1,8 @@
 <div>
   <h1>quotes</h1>
-  <p> {{ quote }}</p>
+  <ul>
+    <li *ngFor='let quote of quotes'>
+      {{quote}}
+    </li>
+</ul>
 </div>
