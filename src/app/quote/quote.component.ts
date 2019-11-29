@@ -8,8 +8,8 @@ import{Quote} from '../quote'
 export class QuoteComponent implements OnInit {
 
   quotes:Quote[]=[
-    {id:1,define:'work hard play hard'},
-    {id:2 ,define:'african warriors '}
+    {id:1,define:'work hard play hard',details:'trevor'},
+    {id:2 ,define:'african warriors ',details:'ngugi'}
   ]
 
   constructor() { }
