@@ -1,6 +1,7 @@
 export class Quote {
-    id:number;
-    define:string;
-    details:string;
+    showDescription:boolean;
+    constructor(public id:number,public define:string,public details:string,)
+    {this.showDescription=false;
+    }
 
 }
