@@ -8,8 +8,8 @@ import{Quote} from '../quote'
 export class QuoteComponent implements OnInit {
 
   quotes:Quote[]=[
-    new Quote(1,'work hard play hard','trevor'),
-    new Quote(2 ,'african warriors ','ngugi')
+    new Quote(1,'work hard play hard','trevor',new Date(2019,1,28)),
+    new Quote(2 ,'african warriors ','ngugi',new Date(2019,2,14))
   ]
 
   toggleDetails(index){

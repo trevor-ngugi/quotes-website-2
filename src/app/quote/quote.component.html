@@ -2,7 +2,7 @@
     <h1>quotes</h1>
     <ul>
         <div *ngFor='let quote of quotes; let i = index'>
-            <li> {{quote.define}}</li>
+            <li> {{quote.define}} published:{{quote.postDate|date}}</li>
             <button (click)='toggleDetails(i)'>Details</button>
             <app-quote-detail *ngIf='quote.showDescription' [quote]='quote'></app-quote-detail>
         </div>
