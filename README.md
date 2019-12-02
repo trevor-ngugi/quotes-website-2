@@ -6,7 +6,7 @@ this is an landing page that displays inspirational quotes to the user and also 
 
 ## Demo
 
-here is a live working demo :
+here is a live working demo :[https://trevor-ngugi.github.io/quotes-website-2/]
 <img src="src/assests/web.png">
 
 ## setup
