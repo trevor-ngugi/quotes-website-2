@@ -12,6 +12,13 @@ export class QuoteComponent implements OnInit {
     new Quote(2 ,'african warriors ','ngugi',new Date(2019,2,14))
   ]
 
+  addNewQuote(quote){
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength+1;
+    quote.postDate = new Date(quote.postDate)
+    this.quotes.push(quote)
+  }
+
   toggleDetails(index){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
